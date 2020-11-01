@@ -6,7 +6,7 @@ const download = require('image-downloader')
 
 var botname = "corona" //You can change this with /setbotname
 
-const token = "process.env.token";
+bot.login (process.env.token);
 
 
 client.on('message', msg => {
